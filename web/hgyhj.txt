@@ -1,0 +1,37 @@
+<div class="text-box">
+      <h1>i'm <span class="auto-input"></span></h1>
+      <a href="Register.html" class="btn">contet me</a>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+      var typed = new typed (".auto-input",{
+          strings: ["anna amelia", "web developer"]
+          typespeed: 100,
+          backspeed:100,
+          loop: true
+      })
+.text-box{
+    margin-top: 15%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px
+}
+.text-box h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+.text-box a{
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #fff724;
+    color: #fff724;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.text-box .btn{
+    background: #fff724;
+    color: #000;
+    margin-left: 30px;
+    font-weight: 600;
+}

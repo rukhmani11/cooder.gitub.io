@@ -1,0 +1,84 @@
+<br>
+      <br>
+      <div class="container">
+        </div>
+        <div class="row">
+        <div class="col">
+            <div class="feature-img">
+            <div class="col">
+            <div class="small-img-row">
+                <div class="small-img-row">
+                   <img src="micro.jpg" width="200px" position="right">
+                </div>
+                <p><h5>Macaroni is one of the most popular dishes made across the world. Here is how you can make it at home in easy steps,  Do try this recipe at home and enjoy its scrumptious flavours. Happy Cooking!</h5> </p>
+            
+            </div><br>
+             <div class="small-img-row">
+                <div class="small-img-row">
+                <img src="aloo.jpg" width="200px"></div>
+                <p>Macaroni is one of the most popular dishes made across the world. Here is how you can make it at home in easy steps,  Do try this recipe at home and enjoy its scrumptious flavours. Happy Cooking!</p>
+                </div>
+             <div class="small-img-row">
+                <div class="small-img-row">
+                <img src="ege.jpg" width="200px"></div>
+                <p>Macaroni is one of the most popular dishes made across the world. Here is how you can make it at home in easy steps,  Do try this recipe at home and enjoy its scrumptious flavours. Happy Cooking!</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+.container{
+    width: 80%;
+    margin: 80px auto;
+    position: right;
+    position: right;
+   
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    
+    
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+feature-img{
+    position: top;
+    width: 70%;
+    margin: auto;
+    position: left;
+    border-radius: 6px;
+    overflow: hidden;
+   
+}
+.small-img-row{
+    display: flex;
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), ;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+    
+}
+.small-img{
+    position:right;
+    
+}
+.small-img img{
+    width: 150px;}
+    
+.small-img-row p{
+    margin-left:20px;
+    color:black;
+    line-height: 22px;
+    font-size:15px;
+    
+}

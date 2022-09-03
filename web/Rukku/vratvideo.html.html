@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="vratvideo.css.css">
+<!-- The video -->
+<video autoplay muted loop id="myVideo" width="900px">
+  <source src="Vrat_me_aise_bana_kar_khaye___vrat_ke_aalo_fry__delighted_food_recipes(1080p).mp4" type="video/mp4">
+</video>
+
+
+<div class="content">
+  <h1>vrat recipe</h1>
+  <p>vrat me aise bana kar khaye .Vrat Wale Sookhe Aloo is a gluten-free dry sabji made using potatoes . It is served as a snack on vrat (Hindu fasting) days. You can also serve it as a side dish with any Indian meal.</p>
+  
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+    
+</div>
+<script>
+
+var video = document.getElementById("myVideo");
+
+
+var btn = document.getElementById("myBtn");
+
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>

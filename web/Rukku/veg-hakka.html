@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="micronivideo.css">
+<!-- The video -->
+<video autoplay muted loop id="myVideo" width="900px">
+  <source src="veg-hakka_noodles____%25E0%25A4%25B5%25E0%25A5%258D%25E0%25A4%25B9%25E0%25A5%2587%25E0%25A4%259C_%25E0%25A4%25B9%25E0%25A4%2595%25E0%25A5%258D%25E0%25A4%2595%25E0%25A4%25BE_%25E0%25A4%25A8%25E0%25A5%2582%25E0%25A4%25A1%25E0%25A4%25B2%25E0%25A5%258D%25E0%25A4%25B8_%25E0%25A4%2595%25E0%25A5%2580_%25E0%25A4%25B0%25E0%25A5%2587%25E0%25A4%25B8%25E0%25A4%25BF%25E(2K).webm" type="video/mp4">
+</video>
+
+
+<div class="content">
+  <h1>veg-hakka_noodles</h1>
+  <p>Hakka Noodles are easy and delicious wok-tossed noodles. Thin noodles are tossed with veggies and sauces on high flame to make this Indo Chinese delicacy.  Here is how to make it.</p>
+  
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+    
+</div>
+<script>
+
+var video = document.getElementById("myVideo");
+
+
+var btn = document.getElementById("myBtn");
+
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>

@@ -1,0 +1,81 @@
+<div class="main">
+        <div class="card">
+        <div class="image">
+          <img src="Atta Dosa Recipe.jpg"height="175px">
+        </div>
+        <div class="title">
+          <h1>Atta Dosa Recipe</h1>
+        </div>
+        <div class="des">
+          <p>This dosa has a batter made out of wheat. This recipe is so easy to make that it will be ready in just 20 minutes. .......................................................write more. ....................read</p>
+            <button><a href="roshni.html">Read More...</a>
+              </button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="Lahori Charga Recipe.jpg"height="175px">
+        </div>
+        <div class="title">
+          <h1>Lahori Charga Recipe</h1>
+        </div>
+        <div class="des">
+          <p> traditional fried recipe famous in the city Lahore. A whole skinless chicken is coated with a flavor-packed mixture of aromatic spices,ginger,garlic,lemon or lime juice,vinegar,sometimes yogurt</p>
+          <button><a href="https://en.wikipedia.org/wiki/Taj_Mahal">Read More.....</a></button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="Veg Grilled Sandwich.jpg"height="175px">
+        </div>
+        <div class="title">
+          <h1>Veg Grilled Sandwich</h1>
+        </div>
+        <div class="des">
+          <p>Homemade Veg Grilled Sandwich Recipe: This is an quick and easy sandwich recipe. To make this you need capsicum, onion, cucumber, carrot and paneer.......................................................</p>
+          <button><a href="https://en.wikipedia.org/wiki/Red_Fort">Read More...</a></button>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="image">
+          <img src="jangali pulao.jpg"height="175px">
+        </div>
+        <div class="title">
+          <h1>Jungli pulav</h1>
+        </div>
+        <div class="des">
+          <p>The recipe for Jungli pulao has many variations, some insist on using leftover rice and curries and some like to start from scratch. The one that we bring for you today is a fairly simple one..</p>
+          <button><a href="https://en.wikipedia.org/wiki/Red_Fort">Read More...</a></button>
+        </div>
+      </div>
+    
+     
+    
+      <div class="card">
+        <div class="image">
+          <img src="Beer Batter Fish Fingers Recipe.jpg"height="175px">
+        </div>
+        <div class="title">
+          <h1>Beer Batter Fish Fingers Recipe</h1>
+        </div>
+        <div class="des">
+          <p>Marinated in beer these boozy fish fingers are a delight for light and crisp snacking.Marinated in beer these boozy fish fingers are a delight for light and crisp snacking...................................Write More...........................Read</p>
+          <button><a href="https://en.wikipedia.org/wiki/Hawa_Mahal">Read More...</a></button>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="image">
+          <img src="Kesar Pista Phirni Recipe.jpg" height="175px">
+        </div>
+        <div class="title">
+          <h1>Kesar Pista Phirni Recipe</h1>
+        </div>
+        <div class="des">
+          <p>About Kesar Pista Phirni Recipe: One Indian dessert that none of us can ever say no to is phirni.A bowl of chilled,nutty and delicious phirni can turn around a day for us.Here's a sugar-free kesar pista phirni that you can try at home this summer season!</p>
+          <button><a href="https://en.wikipedia.org/wiki/Gateway_of_India">Read More...</a></button>
+        </div>
+      </div>
+      
+    </div>
